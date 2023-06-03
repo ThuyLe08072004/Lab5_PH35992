@@ -23,12 +23,8 @@ public class bai2 extends AppCompatActivity {
         ListView listdanhsach = findViewById(R.id.listdanhsach);
         Button btnthem = findViewById(R.id.btnthem);
         //them doi tuong vao list
-        list.add(new ttcanhan("Ngọc Minh","Hà Nội","Hà Nội"));
-        list.add(new ttcanhan("A","A","Huế"));
-        list.add(new ttcanhan("Ngọc Minh","Hà Nội","Hà Nội"));
-        list.add(new ttcanhan("A","A","Huế"));
-        list.add(new ttcanhan("Ngọc Minh","Hà Nội","Hà Nội"));
-        list.add(new ttcanhan("A","A","Huế"));
+        list.add(new ttcanhan("Lê Thị Thuý","Hà Nội","Hà Nội"));
+        list.add(new ttcanhan("Lê Thị Lan","Đắc lắc","Hà Nội"));
         //
         ttcanhanadapter adapter = new ttcanhanadapter(this,list);
         //do du lieu len spiner
