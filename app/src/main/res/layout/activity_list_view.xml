@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listView"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/txttencs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten cs"
+        android:textColor="#F47A10"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ tên: "
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txttenhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tên của người nhập vào"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ: "
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtdiachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="địa chỉ của người nhập vào"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="UPDATE"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:backgroundTint="#3240BA"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/btnxoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="DELETE"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:backgroundTint="#AC2323"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

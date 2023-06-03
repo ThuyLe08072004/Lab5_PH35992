@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai4dk"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/txtchao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng bạn,"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:textColor="#BCFF70"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/txtvui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký tài khoản"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:paddingLeft="15dp"
+        android:textColor="#BCFF70"
+        android:layout_gravity="left"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiluserdk"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        app:hintEnabled="true"
+        android:gravity="center_vertical"
+        app:hintTextColor="@color/white"
+        android:textColorHint="#70FAFF"
+        android:layout_marginTop="30dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tieuserdk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="Nhập username"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/thietkeb2"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilpassdk"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        app:hintEnabled="true"
+        android:gravity="center_vertical"
+        app:hintTextColor="@color/white"
+        android:textColorHint="#70FAFF"
+        android:layout_marginTop="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiepassdk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="Nhập password"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/thietkeb2"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilpassconfim"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        app:hintEnabled="true"
+        android:gravity="center_vertical"
+        app:hintTextColor="@color/white"
+        android:textColorHint="#70FAFF"
+        android:layout_marginTop="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiepassconfim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="Nhập lại password"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/thietkeb2"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <CheckBox
+        android:id="@+id/chkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Chấp nhận điều khoản"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:textColor="#F44336"
+        android:textSize="18dp"/>
+
+
+    <Button
+        android:id="@+id/btndangnhap1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="ĐĂNG KÝ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#BCFF70"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/thietke2b"/>
+    <Button
+        android:id="@+id/btntrove"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="TRỞ VỀ"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"
+        android:textColor="#BCFF70"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        android:background="@drawable/thietke2b"/>
+
+</LinearLayout>
